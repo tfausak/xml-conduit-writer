@@ -36,6 +36,7 @@ module Text.XML.Writer
     ) where
 
 import Text.XML
+import Control.Monad (when)
 import Control.Monad.Writer.Strict
 import Data.Default ()
 import qualified Data.DList as DL
